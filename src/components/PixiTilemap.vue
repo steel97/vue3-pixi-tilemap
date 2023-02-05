@@ -27,8 +27,8 @@ let active = true;
 let frame = 0;
 
 const loadAssets = async () => {
-  Assets.add('atlas', 'assets/atlas.json');
-  Assets.add('button', 'assets/button.png');
+  Assets.add('atlas', './assets/atlas.json');
+  Assets.add('button', './assets/button.png');
 
   await Assets.load(['atlas', 'button'], progress => loadingProgress.value = progress);
 }
