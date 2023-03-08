@@ -1,6 +1,6 @@
 # vue3-pixi-tilemap
 
-This template should help get you started developing with Vue 3 in Vite.
+Live example: [https://steel97.github.io/vue3-pixi-tilemap/](https://steel97.github.io/vue3-pixi-tilemap/)
 
 ## Recommended IDE Setup
 
