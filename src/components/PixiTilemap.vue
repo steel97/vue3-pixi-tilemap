@@ -68,7 +68,8 @@ const buildTilemap = (tilemap: CompositeTilemap) => {
   // You can also set independent time for each tile.
   // In this second chest, we pass 3 to tileAnimDivisor
   // 3 multiplies the 100ms we have in setInterval by 3, making the duration 300ms
-  tilemap.tile(textures['chest.png'], 5 * size, 4 * size).tileAnimX(34, 2).tileAnimDivisor(3);
+  //tilemap.tile(textures['chest.png'], 5 * size, 4 * size).tileAnimX(34, 2).tileAnimDivisor(3);
+  tilemap.tile(textures['brick.png'], 5 * size, 5 * size).tileAnimX(34, 3).tileAnimDivisor(3);
   // You can alternatively set it by passing animDivisor option when creating the tile. Below a frame duration is 600ms
   tilemap.tile(textures['chest.png'], 8 * size, 4 * size, { animX: 34, animCountX: 2, animDivisor: 6 });
 
